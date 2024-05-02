@@ -29,10 +29,10 @@ Easy to use and customize.
 > For version >=1.0.7 its a requirement to use node version >=18.18.2 because of the `eslint` dependencies.
 
 Using npm:
-> npm install fusion-angular-wysiwyg
+> npm install @fusion/angular-wysiwyg
 
 Using yarn:
-> yarn add fusion-angular-wysiwyg
+> yarn add @fusion/angular-wysiwyg
 
 ## Usage
 
@@ -44,7 +44,7 @@ Import module:
 ```js
 // Needs to import HttpClientModule
 import { HttpClientModule} from '@angular/common/http';
-import { AngularEditorModule } from 'fusion-angular-wysiwyg';
+import { AngularEditorModule } from '@fusion/angular-wysiwyg';
 
 @NgModule({
   imports: [ HttpClientModule, AngularEditorModule ]
@@ -94,7 +94,7 @@ You can also define the `upload` config to make the request and map the response
 
 ```typescript
 import { HttpClient, HttpResponse } from '@angular/common/http';
-import { UploadResponse, AngularEditorConfig } from 'fusion-angular-wysiwyg';
+import { UploadResponse, AngularEditorConfig } from '@fusion/angular-wysiwyg';
 import { map } from 'rxjs';
 
 // ...

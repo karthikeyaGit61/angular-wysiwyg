@@ -1,5 +1,5 @@
 {
-  "name": "fusion-angular-wysiwyg",
+  "name": "@fusion/angular-wysiwyg",
   "version": "1.2.2",
   "scripts": {
     "ng": "ng",
