@@ -75,17 +75,15 @@
                tabindex="-1"></ae-select>
   </div>
   <div class="angular-editor-toolbar-set">
-
+{{fontName}}
     <ae-select class="select-font" [options]="fonts"
                [(ngModel)]="fontName"
                (change)="setFontName(fontName)"
                [disabled]="htmlMode"
-               [hidden]="isButtonHidden('fontName')"
                tabindex="-1"
                title="Font Family"></ae-select>
   </div>
   <div class="angular-editor-toolbar-set">
-{{fontSize}}
     <ae-select class="select-font-size" [options]="fontSizes"
                [(ngModel)]="fontSize"
                (change)="setFontSize(fontSize)"

@@ -102,7 +102,7 @@ export class AngularEditorComponent
 
   @HostListener('window:click', ['$event.target'])
   onClick(e) {
-    console.log("click", e);
+    console.log("click", e, this.focused);
     if (!this.focused) return;
     this.unselectImage();
     if (!e || e.tagName !== 'IMG') return;
