@@ -705,6 +705,7 @@ export class AngularEditorComponent
    * Send a node array from the contentEditable of the editor
    */
   exec($event: KeyboardEvent | any | null = null) {
+    console.log("keyboard event", $event);
     if ($event && ($event.key === 'Delete' || $event.key === 'Backspace')) {
       if (this.currentSelectedImage) {
         this.removeResizeWrapper();
