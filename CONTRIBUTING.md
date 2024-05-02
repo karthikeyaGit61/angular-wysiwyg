@@ -1,4 +1,4 @@
-# Contributing to @fusion/angular-wysiwyg
+# Contributing to editor-angular-wysiwyg
 
 Thank you for considering contributing to the Angular WYSIWYG project! Contributions are essential for improving the project and making it more robust.
 
