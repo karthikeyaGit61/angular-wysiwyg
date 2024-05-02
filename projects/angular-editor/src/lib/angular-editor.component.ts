@@ -63,6 +63,9 @@ export class AngularEditorComponent
   focusInstance: any;
   blurInstance: any;
 
+  fonts: { label: string, value: string }[] = [];
+
+
   @Input() id = '';
   @Input() config: AngularEditorConfig = angularEditorConfig;
   @Input() placeholder = '';
@@ -136,6 +139,7 @@ export class AngularEditorComponent
   }
 
   ngOnInit() {
+    this.fonts = this.getFonts();
     this.config.toolbarPosition = this.config.toolbarPosition
       ? this.config.toolbarPosition
       : angularEditorConfig.toolbarPosition;
@@ -773,12 +777,8 @@ export class AngularEditorComponent
   }
 
   getFonts() {
-    const fonts = this.config.fonts
-      ? this.config.fonts
-      : angularEditorConfig.fonts;
-    return fonts?.map((x) => {
-      return { label: x.name, value: x.name };
-    });
+    const fonts = this.config.fonts ? this.config.fonts : angularEditorConfig.fonts;
+    return fonts?.map(x => ({ label: x.name, value: x.name })) || [];
   }
 
   getCustomTags() {
