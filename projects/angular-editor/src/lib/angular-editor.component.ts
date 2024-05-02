@@ -105,7 +105,6 @@ export class AngularEditorComponent
 
   @HostListener('window:click', ['$event.target'])
   onClick(e) {
-    console.log("click", e, this.focused);
     if (!this.focused) return;
     this.unselectImage();
     if (!e || e.tagName !== 'IMG') return;
@@ -421,7 +420,6 @@ export class AngularEditorComponent
   }
 
   fontSettingsRefresh() {
-    console.log("fontSettingsRefresh");
     const currentFontName =
       this.editorService.currentFontName || this.config.defaultFontName;
     const currentFontSize =
@@ -709,7 +707,6 @@ export class AngularEditorComponent
    * Send a node array from the contentEditable of the editor
    */
   exec($event: KeyboardEvent | any | null = null) {
-    console.log("keyboard event", $event);
     if ($event && ($event.key === 'Delete' || $event.key === 'Backspace')) {
       if (this.currentSelectedImage) {
         this.removeResizeWrapper();

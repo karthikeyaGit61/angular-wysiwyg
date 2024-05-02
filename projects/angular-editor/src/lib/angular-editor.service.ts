@@ -29,7 +29,6 @@ export class AngularEditorService {
    * @param value
    */
   executeCommand(command: string, value?: string) {
-    console.log("command, value", command, value);
     const commands = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'pre'];
     if (commands.includes(command)) {
       this.doc.execCommand('formatBlock', false, command);
@@ -74,7 +73,6 @@ export class AngularEditorService {
    * @param fontName string
    */
   setFontName(fontName: string) {
-    console.log("setFontName", fontName);
     this.doc.execCommand('fontName', false, fontName);
     this.currentFontName = fontName;
   }
