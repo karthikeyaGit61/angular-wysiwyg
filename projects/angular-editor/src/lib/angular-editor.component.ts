@@ -102,6 +102,7 @@ export class AngularEditorComponent
 
   @HostListener('window:click', ['$event.target'])
   onClick(e) {
+    console.log("click", e);
     if (!this.focused) return;
     this.unselectImage();
     if (!e || e.tagName !== 'IMG') return;
@@ -416,6 +417,7 @@ export class AngularEditorComponent
   }
 
   fontSettingsRefresh() {
+    console.log("fontSettingsRefresh");
     const currentFontName =
       this.editorService.currentFontName || this.config.defaultFontName;
     const currentFontSize =
