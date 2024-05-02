@@ -1,13 +1,13 @@
 {
-  "name": "@wfpena/angular-wysiwyg",
+  "name": "@fusion/angular-wysiwyg",
   "version": "1.1.3",
   "description": "A rich WYSIWYG text editor for Angular 13+. Rich Text editor component for Angular built using Angular 17.",
   "author": "Wilson Pena <wilsonf.pena@gmail.com>",
-  "repository": "https://github.com/wfpena/angular-wysiwyg",
+  "repository": "https://github.com/karthikeyaGit61/angular-wysiwyg",
   "license": "MIT",
   "private": false,
   "bugs": {
-    "url": "https://github.com/wfpena/angular-wysiwyg/issues"
+    "url": "https://github.com/karthikeyaGit61/angular-wysiwyg/issues"
   },
   "peerDependencies": {
     "@angular/common": ">=13",

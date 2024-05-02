@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150px" src="https://raw.githubusercontent.com/wfpena/angular-wysiwyg/HEAD/projects/angular-editor-app/src/assets/angular-wysiwyg-logo2.PNG" alt="AngularEditor logo"/>
+  <img width="150px" src="https://raw.githubusercontent.com/karthikeyaGit61/angular-wysiwyg/HEAD/projects/angular-editor-app/src/assets/angular-wysiwyg-logo2.PNG" alt="AngularEditor logo"/>
 </p>
 
 # Angular WYSIWYG Text Editor
@@ -11,13 +11,13 @@ Easy to use and customize.
 ---
 
 <p align="center" style="font-size: 16px;">
-<a href="https://wfpena.github.io/angular-wysiwyg/">📝 <b>DEMO - Try it out! 📝</b></a>
+<a href="https://karthikeyaGit61.github.io/angular-wysiwyg/">📝 <b>DEMO - Try it out! 📝</b></a>
 </p>
 
 ---
 
 <p align="center">
-  <img width="800px" src="https://raw.githubusercontent.com/wfpena/angular-wysiwyg/HEAD/projects/angular-editor-app/src/assets/wysiwyg-demo-1.gif" alt="AngularEditor logo"/>
+  <img width="800px" src="https://raw.githubusercontent.com/karthikeyaGit61/angular-wysiwyg/HEAD/projects/angular-editor-app/src/assets/wysiwyg-demo-1.gif" alt="AngularEditor logo"/>
 </p>
 
 # Getting Started
@@ -29,10 +29,10 @@ Easy to use and customize.
 > For version >=1.0.7 its a requirement to use node version >=18.18.2 because of the `eslint` dependencies.
 
 Using npm:
-> npm install @wfpena/angular-wysiwyg
+> npm install @fusion/angular-wysiwyg
 
 Using yarn:
-> yarn add @wfpena/angular-wysiwyg
+> yarn add @fusion/angular-wysiwyg
 
 ## Usage
 
@@ -44,7 +44,7 @@ Import module:
 ```js
 // Needs to import HttpClientModule
 import { HttpClientModule} from '@angular/common/http';
-import { AngularEditorModule } from '@wfpena/angular-wysiwyg';
+import { AngularEditorModule } from '@fusion/angular-wysiwyg';
 
 @NgModule({
   imports: [ HttpClientModule, AngularEditorModule ]
@@ -94,7 +94,7 @@ You can also define the `upload` config to make the request and map the response
 
 ```typescript
 import { HttpClient, HttpResponse } from '@angular/common/http';
-import { UploadResponse, AngularEditorConfig } from '@wfpena/angular-wysiwyg';
+import { UploadResponse, AngularEditorConfig } from '@fusion/angular-wysiwyg';
 import { map } from 'rxjs';
 
 // ...
@@ -196,5 +196,5 @@ Feel free to customize the ``iconClass``, ``title``, and ``buttonClick`` event a
 
 ## Report Issues and Feature ideas
 
-You can help make this project better by submitting issues and feature ideas on the [repo issues page](https://github.com/wfpena/angular-wysiwyg/issues).
+You can help make this project better by submitting issues and feature ideas on the [repo issues page](https://github.com/karthikeyaGit61/angular-wysiwyg/issues).
 

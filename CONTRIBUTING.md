@@ -1,4 +1,4 @@
-# Contributing to @wfpena/angular-wysiwyg
+# Contributing to @fusion/angular-wysiwyg
 
 Thank you for considering contributing to the Angular WYSIWYG project! Contributions are essential for improving the project and making it more robust.
 
@@ -8,7 +8,7 @@ Thank you for considering contributing to the Angular WYSIWYG project! Contribut
 
 If you encounter a bug or have a suggestion, please open an issue on the GitHub repository. Provide a clear and detailed description of the issue, including steps to reproduce it. If possible, include screenshots or code snippets that demonstrate the problem.
 
-You can help make this project better by submitting issues and feature ideas on the [repo issues page](https://github.com/wfpena/angular-wysiwyg/issues).
+You can help make this project better by submitting issues and feature ideas on the [repo issues page](https://github.com/karthikeyaGit61/angular-wysiwyg/issues).
 
 
 ### Pull Requests

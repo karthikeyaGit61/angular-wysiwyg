@@ -73,6 +73,7 @@ export class AngularEditorService {
    * @param fontName string
    */
   setFontName(fontName: string) {
+    console.log("setFontName", fontName);
     this.doc.execCommand('fontName', false, fontName);
     this.currentFontName = fontName;
   }
